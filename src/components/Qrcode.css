@@ -1,0 +1,18 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+.app input {
+  margin: 5px;
+  padding: 10px;
+}
+.app button {
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+.app img {
+  margin-top: 20px;
+  border: 1px solid #3498db;
+}

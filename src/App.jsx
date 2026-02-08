@@ -1,34 +1,17 @@
-import Header from "./componerts/header";
-import Leam from "./componerts/leam";
-
-
+import React from "react";
+import Header from "./components/Header.jsx";
+import Leam from "./components/Leam.jsx";
+import Qrcode from "./components/Qrcode.jsx";
 
 function App() {
-  const handleClick=()=>{
-    alert("button clicked");
-  };
-  
+  const handleClick = () => alert("Button clicked");
 
   return (
-    <>
-      
-      
-      <div>
-        <div> i am muski</div>
-        { <Leam/> }
-        
-        
-
-      </div>
-      
-      <p>
-        Click on the Vite and React logos to learn more
-      </p>
-      { <Header Name="muski" Age={22} isMarried={false}  handleClick={ handleClick}/> }
-      <div>
-      
-      </div>
-    </>
+    <div>
+      <Header Name="Muski" Age={22} isMarried={false} handleClick={handleClick} />
+      <Leam />
+      <Qrcode />
+    </div>
   );
 }
 
