@@ -1,0 +1,23 @@
+.Text{
+    color: blue;
+}
+.till{
+    color: rgb(195, 21, 21);
+}
+.code{
+    color: rgb(7, 103, 30);
+}
+.error{
+    color: red;
+}
+.student table{
+    border: 1px solid #9d1717;
+    width: 200px;
+    
+    
+    
+  }
+  .student table td,.student table th{
+    text-align: left;
+    border: 1px solid #9d1717;
+  }
